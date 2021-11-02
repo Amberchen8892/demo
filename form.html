@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/23cbbbdcb5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleTwo.css">
+    <title>Wype Demo - Sign Up</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/Wype.png" width="60px" height="50px" alt="WYPE" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="landing.html#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html#Review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing.html#Pricing">Pricing</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-primary"><a  href= "form.html" style="color:white; text-decoration: none;">Demo</a></button>
+                <button type="button" class="btn btn-secondary"><a href="https://wype-dashboard-demo.netlify.app/" style="color:white; text-decoration: none;">Dashboard</a></button>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div style="display:flex; justify-content: center; align-items: center;">
+        <div class="container">
+            <div class="indicator" id="indicator">
+                <span class="line"><span></span></span>
+                <div>
+                    <h5 style="font-size: 1rem;"> Create an account</h5>
+                    <p style="font-size: 0.8rem;">STEP 1</p>
+                </div>
+                <div>
+                    <h5 style="font-size: 1rem;">Additional Information</h5>
+                    <p style="font-size: 0.8rem;">STEP 2</p>
+                </div>
+                <div>
+                    <h5 style="font-size: 1rem;">Payment</h5>
+                    <p style="font-size: 0.8rem;">STEP 3</p>
+                </div>
+                <div>
+                    <h5 style="font-size: 1rem;">Credit Mornitoring</h5>
+                    <p style="font-size: 0.8rem;">STEP 4</p>
+                </div>
+
+
+            </div>
+            <form action="#">
+                <div class="tab">
+                    <h2 style="text-align: center;margin-bottom:1.8rem; font-size: 1.5rem;"> Create Account</h2>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>First Name</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g. Jane">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>Last Name</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g. Doe">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper-special">
+                                    <p>Street Address</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g 123 Market Street">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom:0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>City</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g. San Francisco">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>State</p>
+                                </div>
+
+                                <div class="form">
+                                    <select class="form-select form-select-lg mb-3"
+                                        style="height:2.5rem;font-size:0.9rem " aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>Zip Code</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g. 12345">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>Email</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="email" placeholder="e.g. janedoe@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>Phone</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.g 415-555-1234">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper">
+                                    <p>Password</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="password"
+                                        placeholder="Minimum 8 characters, 1 upper, 1 lower, 1 number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom:0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper-special">
+                                    <p>Referring Rep</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="John Doe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom:0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper-special-one">
+                                    <p>Referring Rep Email</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="email" placeholder="e.g. jphndoe@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom:0.7rem;">
+                        <div class="col">
+                            <div class="box">
+                                <div class="label-wrapper-special-one">
+                                    <p>Referring Rep Phone</p>
+                                </div>
+
+                                <div class="form">
+                                    <input type="text" placeholder="e.e. 415-555-1234">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-check" style="margin-bottom:0.7rem;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            I agree to the <span>Term and Conditions</span>.
+                        </label>
+                    </div>
+                    <div class="form-check" style="margin-bottom: 0.7rem;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            I agree to give Wype <span>Limited Power of Attorney</span>.
+                        </label>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="step-two-a" id="step-twoA">
+                        <h2 class="onboarding-h2" style="margin-bottom:1.8rem; font-size: 1.5rem; text-align: center;">Personal History</h2>
+                        <div class="field-wrap">
+                            <div class="field-label">
+                                <p>Have you ever been employed by the US government?</p>
+                            </div>
+                            
+                            <div class="form-field file-upload-field">
+                                <select id="field" style="width:40rem; height:2rem" name="government_employee"
+                                    data-ms-member="employedbygovernment" class="select-field w-select"
+                                    ref={props.register}>
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-wrap">
+                            <div class="field-label">
+                                <p>Have you ever received any government benefits?</p>
+                            </div>
+                            <div class="form-field file-upload-field">
+                                <select id="field-2" style="width:40rem; height:2rem" name="government_benefits"
+                                    data-name="Field 2" data-ms-member="acceptedgovbenefits"
+                                    class="select-field w-select" ref={props.register}>
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-wrap">
+                            <div class="field-label">
+                                <p>Are you a veteran?</p>
+                            </div>
+                            <div class="form-field file-upload-field">
+                                <select id="field-4" style="width:40rem; height:2rem" name="veteran" data-name="Field 4"
+                                    data-ms-member="veteranstatus" class="select-field w-select" ref={props.register}>
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-wrap bottom-field-step-two">
+                            <label htmlFor="SSN" class="field-label-special">
+                                <strong>Have you ever used a credit, debit card or shared your personal information with
+                                    any of the following companies at any of their locations?</strong>
+                            </label>
+                            <div class="form-field file-upload-field large" style="width:40rem; margin-top: 1.5rem;">
+                                <p class="retail-list">
+                                    Macy’s, Sears, Home Depot, Verizon, Kmart, Wendy’s, Delta Airlines, Michaels, Best
+                                    Buy, Landry’s, Saks Fifth Avenue, JP Morgan Chase, Lord &amp; Taylor, Facebook
+                                    Account, Panera, Ebay, Forever 21, Orbitz, Sonic, Chili’s Restaurants, WholeFoods,
+                                    Uber, Arby’s, Target Stores, Walmart,
+                                    Marriott, Quest Diagnostics, Experian or Equifax.
+                                </p>
+                                <select id="field-3" style="width:40rem; height:2rem" name="possible_data_breach_victim"
+                                    data-name="Field 3" data-ms-member="shoppedatxyz" class="select-field w-select"
+                                    ref={props.register}>
+                                    <option value="true">Yes</option>
+                                    <option value="false">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-two-b" id="step-twoB">
+                        <h2 style="margin-bottom:1.8rem; font-size: 1.5rem; text-align: center">Verify Identity</h2>
+                        <div class="box" style="margin-bottom:2rem">
+                            <div class="label-wrapper-special-two">
+                                <p>Date of Birth</p>
+                            </div>
+
+                            <div class="form">
+                                <input type="text" style="height:3.5rem" placeholder="e.g. 01/01/1990">
+                            </div>
+                        </div>
+                        <div class="box" style="margin-bottom:2rem">
+                            <div class="label-wrapper-special-two">
+                                <p>Social Security Number</p>
+                            </div>
+
+                            <div class="form">
+                                <input type="text" style="height:3.5rem" placeholder="e.g. 123-456-789">
+                            </div>
+                        </div>
+                        <div class="field-wrap" style="margin-bottom:2rem">
+                            <div class="label-wrapper-special-two">
+                                <p>Gov Issued Photo ID)</p>
+                            </div>
+                            <div class="form-field file-upload-field">
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+                        <div class="field-wrap" style="margin-bottom:2rem">
+                            <div class="label-wrapper-special-two" style="width:23rem;">
+                                <p>Proof of Adress(current utility bill or bank statement)</p>
+                            </div>
+                            <div class="form-field file-upload-field">
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab">
+                    <h1 style="text-align:center; font-size: 1.5rem; color:#52c293; margin-top: 1.8rem;">Good news! Your credit restoration
+                        is
+                        being
+                        sponsored by <span style="color:#12ae6d">Lift Energy</span>.</h1>
+                    <p style="text-align:center;">You will get to enjoy the following benefits</p>
+                    <ul style="margin-left: 10rem;">
+                        <li style="list-style: none;"><span style="color:#12ae6d"><i class="fas fa-circle"></i></span> Improved scores from all 3 bureaus.</li>
+                        <li style="list-style: none;"><span style="color:#12ae6d"><i class="fas fa-circle"></i></span> Unlimited negative mark removal</li>
+                    </ul>
+                    <div style="display:flex; justify-content: center;align-items: center;">
+                    <div class="card shadow"  style="padding:2rem; width:50rem; margin-bottom: 1.8rem;">
+                        <div class="logo-container">
+                            <div>
+                                <img src="./images/Wype.png" width="60px" height="60px" alt="Wype"/>
+                            </div>
+                            <div>
+                                <img src="./images/LIFT.png"  width="60px" height="60px" alt="Wype"/>
+                            </div>
+                        </div>
+                        <h1 style="font-size:1.5rem; text-align: center;">Sponsored Credit Repair Agreement</h1>
+                        <p style=" text-align: center;">Letter of Intent</p>
+                        <p style="font-weight: 400;font-size: 0.9rem;">This Agreement is made and entered into this by and between you ("Client"), Lift Energy
+                            ("Solar
+                            Company"), and Wype ("Credit Company").</p>
+                        <p>1. Services to Be Performed for Client</p>
+                        <p style="font-weight: 400;font-size: 0.9rem;">Rapid credit restoration.</p>
+                        <p>2. Payment</p>
+                        <ul>
+                            <li style="font-weight: 400;font-size: 0.9rem;">Lift Energy will cover the cost of Wype's service ($3,000 value).</li>
+                            <li style="font-weight: 400;font-size: 0.9rem;">Credit monitoring will be paid by Client $24.95 per month. </li>
+                        </ul>
+                        <p> 3. Term of Agreement</p>
+                        <p style="font-weight: 400;font-size: 0.9rem;">
+                            After Client’s credit score is sufficient to be approved for funding, Client promises to
+                            return
+                            to {props.leadSourceTextOverride || props.leadSource}. If Client does not return to
+                            {props.leadSourceTextOverride || props.leadSource}, Credit Company will bill Client for the
+                            full
+                            cost of service
+                            ($3,000). If necessary, proper steps will be taken to collect the balance due which may
+                            result
+                            in negative credit reporting.
+                        </p>
+                        <p style="font-weight: 400;font-size: 0.9rem;">
+                            In addition, you agree that you will <span style="font-weight: bold; text-decoration: underline;">NOT</span>
+                            do
+                            the following during Credit Company’s process:
+                        </p>
+                        <div>
+                            <ol>
+                                <li style="font-weight: 400;font-size: 0.9rem;">Apply for new credit resulting in new inquiries.</li>
+                                <li style="font-weight: 400;font-size: 0.9rem;">Miss payments on any open and current account.</li>
+                                <li style="font-weight: 400;font-size: 0.9rem;">Negotiate with creditors to settle debts unless disclosed to Credit Company.</li>
+                            </ol>
+                        </div>
+                        <p style="font-weight: 400;font-size: 0.9rem;">If any of these criteria report for two consecutive months, the Client will be removed from
+                            the
+                            sponsored program at which point one of the options below will be presented.</p>
+                        <div>
+                            <ol>
+                                <li style="font-weight: 400;font-size: 0.9rem;">Client may enter a paid plan with Credit Company to continue work.</li>
+                                <div style=" width: 50%; text-align: center">-or-</div>
+                                <li style="font-weight: 400;font-size: 0.9rem;">Credit Company will bill Client for full cost of service.</li>
+                            </ol>
+                        </div>
+                        <div class="form-check" style="margin-bottom: 1.5rem;">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault" style="font-weight: 400;font-size: 0.9rem;">
+                                By clicking the box, you agree to all terms as stated in this Agreement.
+                            </label>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="tab" >
+                    <div id="last-tab">
+                    <div class="card shadow-lg" style="width: 40rem; height:20rem">
+                        <div class="card-body" >
+                            <h1 style="margin-top: 3rem;"> Thank You!</h1>
+                            <p style="margin-top: 3rem;">You have successfully submitted your information.</p>
+                            <p>We will get in touch shortly.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="btn">
+                    <!-- <button type="button" class="prev">Back</button> -->
+                    <button type="button" class="submit">Submit</button>
+                    <button type="button" id="next-btn" onclick="myFunction()" class="next">Next</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src='script.js'></script>
+
+</body>
+
+</html>
