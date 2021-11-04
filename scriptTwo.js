@@ -39,12 +39,4 @@ setTimeout(function(){
 
 }, 2000);
 
-if(url === "/demo/brandon/"){
-  email.innerHTML = "brandon@wype.io"
-
-} else if(url === "/demo/tyson/"){
-  email.innerHTML = "tyson@wype.io"
-}else if(url === "/demo/kyle/"){
-  email.innerHTML = "kyle@wype.io"
-} 
 
