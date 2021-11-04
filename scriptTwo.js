@@ -3,10 +3,6 @@ const banner = document.getElementById("text-banner");
 const page = document.getElementsByClassName("whole-page")
 const sectionThree = document.getElementById("Review");
 const sectionFour = document.getElementById("Pricing");
-const url = window.location.pathname;
-
-const email= document.getElementById("email");
-console.log(email.innerHTML)
 TweenMax.to('.overlay', 2, {
     delay: 7,
     top: '-200%',
