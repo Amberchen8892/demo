@@ -9,6 +9,9 @@
     --green: #12ae6d;
     
 }
+html{
+    font-size:12px
+   }
 /* form */
 .container{
     width: 65vw;

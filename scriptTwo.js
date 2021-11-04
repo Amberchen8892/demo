@@ -7,11 +7,11 @@ const url = window.location.pathname;
 
 const email= document.getElementById("email");
 console.log(email.innerHTML)
-// TweenMax.to('.overlay', 2, {
-//     delay: 7,
-//     top: '-200%',
-//     ease: Expo.easeInOut,
-//   });
+TweenMax.to('.overlay', 2, {
+    delay: 7,
+    top: '-200%',
+    ease: Expo.easeInOut,
+  });
 
 setTimeout(function(){
     
@@ -20,7 +20,7 @@ setTimeout(function(){
         showContent.classList.remove('hidden');
         setTimeout(function () {
           showContent.classList.remove('visuallyhidden');
-        }, 2);
+        }, 2000);
       } else {
         showContent.classList.add('visuallyhidden');    
         showContent.addEventListener('transitionend', function(e) {
@@ -32,7 +32,7 @@ setTimeout(function(){
         });
       }
 
-}, 1000);
+}, 6000);
 setTimeout(function(){
     sectionThree.style.display = "block";
     sectionFour.style.display = "block";

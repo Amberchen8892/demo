@@ -11,7 +11,7 @@
    
 }
 html{
- font-size:16px
+ font-size:12px
 }
 *{
   margin:0;
@@ -20,8 +20,8 @@ html{
 }
 
 .section-one{
-    /* height:100vh;
-    width:100vw; */
+    height:100vh;
+    width:100vw;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -173,8 +173,8 @@ svg{
 
   /* ---- section four pricing -----*/
   .section-four{
-width:100vw;
-height:100vh;
+/* width:100vw;
+height:100vh; */
   display:flex; 
   justify-content: center; 
   align-items: center;
