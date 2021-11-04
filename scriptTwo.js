@@ -3,6 +3,10 @@ const banner = document.getElementById("text-banner");
 const page = document.getElementsByClassName("whole-page")
 const sectionThree = document.getElementById("Review");
 const sectionFour = document.getElementById("Pricing");
+const url = window.location.pathname;
+
+const email= document.getElementById("email");
+console.log(email.innerHTML)
 // TweenMax.to('.overlay', 2, {
 //     delay: 7,
 //     top: '-200%',
@@ -33,6 +37,14 @@ setTimeout(function(){
     sectionThree.style.display = "block";
     sectionFour.style.display = "block";
 
-}, 6000);
+}, 2000);
 
+if(url === "/demo/brandon/"){
+  email.innerHTML = "brandon@wype.io"
+
+} else if(url === "/demo/tyson/"){
+  email.innerHTML = "tyson@wype.io"
+}else if(url === "/demo/kyle/"){
+  email.innerHTML = "kyle@wype.io"
+} 
 
