@@ -13,11 +13,11 @@
     <link rel="shortcut icon" type="image/jpg" href="./images/Wype.png"/>
 </head>
 <body>
-  <div class="overlay">
+  <!-- <div class="overlay">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_cmfeyfcl.json"  background="transparent"  speed="1"  style="width: 100vw; height: 100vh;"  loop  autoplay></lottie-player>
    
-  </div>
+  </div> -->
   <div>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -47,7 +47,7 @@
         </div>
     </nav>
     <div class="section-one" id="Home">
-        <div class="hero-wrapper">
+        <div class="hero-wrapper" >
             <div class="row">
                 <div class="col-12 col-md-7" style=" padding-top: 3rem">
                     <div class="title-one" style="height:5rem; padding-top: 2rem;">
@@ -59,17 +59,17 @@
                         <div class="row">
                             <div class="col-sm-3 check visuallyhidden hidden " id="threeSeconds" >
                               
-                                <img src="./images/hero1.png" style="width:65rem; height:100%; margin-left: -8rem;" />
+                                <img src="./images/hero1.png" style="width:50rem; height:95%; padding-right: 10rem; margin-top:2rem" />
                                 
                             </div>
                             <div class="col-sm-9 " >
-                                <div class="title-two-a" style="margin-left: 20px;">
-                                    <svg viewBox="0 0 450 50">
-                                        <text y="50">SERVICE</text>
-                                      </svg>
-                                </div>
+                              <div class="title-one" style="height:5rem; padding-top: 1rem;">
+                                <svg viewBox="0 0 450 50">
+                                    <text y="50">STANDARD</text>
+                                  </svg>
+                            </div>
                                 <div class='hero-tex' style="margin-left: 30px;">
-                                    <h1 class='text-large'style="color:#cf46f8">for our great partners</h1>
+                                    <h1 class='text-large'style="color:#785cfa">for our partners</h1>
                                     <div class='hero-graph' style="color:lightslategray">
                                         <p>We are a dedicated team of credit experts, financial lawyers, and tech entrepreneurs with over 30 years of experience in the credit industry. </p>
                                         <p>Through years of developing, streamlining our craft, and a dedicated focus on affordability, we have revolutionized credit mastery and brought the industry to the modern age.</p>
@@ -97,9 +97,12 @@
         <div class='multi-bg'>
           
           <div class="card custom-card">
-           <div>
-            <h1 class="testimonial-text"style="text-align: center; margin-top:0.5rem;">Testimonials</h1>
-            <div class="bar" style="text-align: center;"></div>
+           <div style=" display:flex; justify-content: center;align-items: center;">
+            <div style="width:30vw;  position: relative; max-width:100vw">
+              <h1 class="testimonial-text"style="text-align: center; margin-top:0.5rem;">Testimonials</h1>
+              <div class="bar" style="text-align: center;"></div>
+            </div>
+            
            </div>
           
             <div class="card-body row " style="padding: 1rem">
@@ -138,7 +141,7 @@
                   <div class="team_img">
                     <img src="./images/img2.png" style="border-radius: 50%;" alt="Team_image">
                   </div>
-                  <h3  style="margin-bottom: 0.2rem;">Alex Wood</h3>
+                  <h3  style="margin-bottom: 0.2rem;">Taylor Stika</h3>
                   <div style="margin-bottom: 0.2rem;">
                     <i style="color: gold; font-size: 0.7rem;"class="fas fa-star"></i>
                     <i style="color: gold; font-size: 0.7rem;"class="fas fa-star"></i>
@@ -157,99 +160,120 @@
 
     </div>
     <div class="section-four" id="Pricing">
-      <div style="width:100%; height: 80%" >
-      <div style="margin-top:5rem; margin-bottom: 5rem;margin-top: 10rem; text-align: center;">
-        <h1 class="testimonial-text">Our Pricing Options</h1>
-        <div class="bar-two"></div>
-       </div>
-       <div class="main">
-        <section class="plan plan--basic">
+      <div style="width:100%; height: 100%;  display:flex; justify-content: center;align-items: center;"  >
+        <div>
+          <div style="margin-top:2rem; margin-bottom: 2rem; text-align: center;">
+            <h1 class="testimonial-text">Our Pricing Options</h1>
+            <div class="bar-two"></div>
+           </div>
+           <div class="main">
+            <section class="plan plan--basic">
+              <header style="display:flex; justify-content: center; align-items: center;">
+                <h1>Package One</h1>
+                
+              </header>
+              
+              <!-- <p class="plan__description">
+                The basics
+              </p> -->
+              
+              <ul class="plan__features">
+                <li class="active">
+                  $1500 upfront per customer
+                </li>
+                <li  style="color:white">
+                  $1500 upfront per customer
+                </li>
+                <!-- <li>
+                  Priority Support
+                </li>
+                <li>
+                  99.9% uptime SLA
+                </li> -->
+              </ul>
+              
+              <a href="#" class="plan__sign-up">
+                <!-- Contact Us at 888-418-1763 -->
+              </a>
+            </section>
+             
+        <section class="plan plan--standard">
+         
           <header style="display:flex; justify-content: center; align-items: center;">
-            <h1>Package One</h1>
-            
+            <h1>Package Two</h1>
+            <!-- <strong class="plan__price">
+              <span class="currency">€</span>
+              <span class="int">18</span>
+              <span class="decimals">99</span>
+            </strong> -->
           </header>
           
-          <p class="plan__description">
-            The basics
-          </p>
+          <!-- <p class="plan__description">
+           
+          </p> -->
+          
+        
+         <ul class="plan__features">
+              <li class="active">
+                Retainer*
+              </li>
+              
+              <li  class="active">
+                $250 per kW
+              </li>
+              <p style="margin-top: 1rem; color:#8e8b8b; font-style: italic; font-size: 1.2rem;  ">* Based on volume</p>
+    
+            </ul>
+          
+          <a href="#" class="plan__sign-up">
+            <!-- Contact Us at 888-418-1763 -->
+          </a>
+        </section>
+        <section class="plan plan--premium">
+          <em class="plan--best-value">
+            <div>
+              <i class="fas fa-star"></i>
+            </div>
+          </em>
+          <header style="display:flex; justify-content: center; align-items: center;">
+            <h1 >Package Three</h1>
+          </header>
+          
+          <!-- <p class="plan__description">
+            Highly Recommended
+          </p> -->
           
           <ul class="plan__features">
             <li class="active">
-              $1500 upfront per customer
+              $0 upfront 
             </li>
-            <!-- <li>
-              Priority Support
+            <li class="active">
+              $400 per kW
             </li>
-            <li>
-              99.9% uptime SLA
-            </li> -->
+           
           </ul>
           
           <a href="#" class="plan__sign-up">
-            Contact Us at 888-418-1763
+            <!-- Contact Us at 888-418-1763 -->
           </a>
         </section>
-         
-    <section class="plan plan--standard">
-     
-      <header style="display:flex; justify-content: center; align-items: center;">
-        <h1>Package Two</h1>
-        <!-- <strong class="plan__price">
-          <span class="currency">€</span>
-          <span class="int">18</span>
-          <span class="decimals">99</span>
-        </strong> -->
-      </header>
-      
-      <p class="plan__description">
-       Recommended
-      </p>
-      
-      <ul class="plan__features">
-        <li class="active">
-          Retainer*
-        </li>
-        <li>* Based on volume</li>
-        <li  class="active">
-          $250 per kW
-        </li>
-        
-      </ul>
-     
-      
-      <a href="#" class="plan__sign-up">
-        Contact Us at 888-418-1763
-      </a>
-    </section>
-    <section class="plan plan--premium">
-      <em class="plan--best-value">
-        <div>
-          <i class="fas fa-star"></i>
+           </div>
+           <div class="footer-basic">
+             <h1 class="contact-us">Contact us</h1>
+             <ul class="list-inline" style="margin-bottom: 1rem">
+              <li class="list-inline-item"><a href="tel:+18884181763"><img src="images/phone-call (2).png" /> (888)-418-1763</a></li>
+              <li class="list-inline-item"><a href="mailto:inquiries@wype.io?subject=Inquiry%20from%20Wype.io"><img src="images/email.png" /> <span id="email">inquiries@wype.io</span></a></li>
+             
+          </ul>
+            <footer>
+              <div class="social"><a href="https://www.facebook.com/wype.io" target="_blank"><img src="./images/facebook.png" width="32" height="32"></a><a href="https://www.linkedin.com/company/wype-llc/" target="_blank"><img src="./images/linkedin.png" width="32" height="32"></a><a href="https://www.instagram.com/wype.io" target="_blank"><img src="./images/instagram.png" width="32" height="32"></a><a href="https://g.page/r/Cc5yrxuybx36EAE?gm" target="_blank"><img src="./images/google.png" width="32" height="32"></a></div>
+             
+              <p class="copyright">Wype.io © 2021</p>
+          </footer>
+    
+           </div>
         </div>
-      </em>
-      <header style="display:flex; justify-content: center; align-items: center;">
-        <h1 >Package Three</h1>
-      </header>
       
-      <p class="plan__description">
-        Highly Recommended
-      </p>
-      
-      <ul class="plan__features">
-        <li class="active">
-          $0 upfront 
-        </li>
-        <li class="active">
-          $400 per kW
-        </li>
-       
-      </ul>
-      
-      <a href="#" class="plan__sign-up">
-        Contact Us at 888-418-1763
-      </a>
-    </section>
-       </div>
        </div>
 
     </div>
