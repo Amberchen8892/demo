@@ -13,7 +13,11 @@
 html{
  font-size:16px
 }
-
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .section-one{
     /* height:100vh;
@@ -25,7 +29,7 @@ html{
 }
 .hero-wrapper{
   padding: 3rem;
-    min-width:80vw;
+    width:80vw;
     height:100vh;
     
     display: flex;
@@ -64,17 +68,13 @@ svg{
     font-style: italic;
     margin-top: 20px;
 }
-.section-two{
-    height:100vh;
-    width:100vw;
-    background-color: greenyellow;
-    background-repeat: no-repeat,no-repeat;
-}
+
 
 /* ---- section three testimonial ------ */
 .section-three{
     height:100vh;
     width:100vw;
+  
     display:none;
 }
 .multi-bg{
@@ -193,7 +193,7 @@ height:100vh;
     height:5px;
    background-color: #81c644;
    position: absolute;
-   left:43%
+   left:38%
 }
   .plan {
     --border-radius: 0.75rem;
@@ -477,7 +477,8 @@ height:100vh;
  }
  
 /* --- footer ---- */
-.footer-basic {width: 100vw;
+.footer-basic {max-width: 100%;
+  min-width: 100%;
   margin-top: 2rem;
   padding:40px 0;
   background-color:#ffffff;
